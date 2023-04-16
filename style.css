@@ -97,15 +97,15 @@ section#home {
 }
 
 .home-info .whatsapp {
-  background-color: #187e26;
+  background-color: #25d366;
 }
 
 .home-info .linkedin {
-  background-color: #0400ff;
+  background-color: #0e76a8;
 }
 
 .home-info .github {
-  background-color: #4c554d;
+  background-color: #24292e ;
 }
 
 .home-info button:hover{
@@ -219,7 +219,7 @@ input, textarea, button {
 }
 
 #contact form button {
-  background-color: #0400ff;
+  background-color: #24292e;
   color: white;
   font-size: 18px;
   cursor: pointer;

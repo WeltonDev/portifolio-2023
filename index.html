@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link
-      rel="stylesheet"
-      href="https://unpkg.com/swiper/swiper-bundle.min.css"
-    />
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link href='https://css.gg/css' rel='stylesheet'>
   <link rel="stylesheet" href="style.css">
   <title>:: Welton ::</title>
 </head>
+
 <body>
   <main>
     <!-- HEADER -->
@@ -20,34 +20,42 @@
       </div>
       <div class="menu">
         <nav class="nav-list">
-            <a href="#home">Home</a>
-            <a href="#projects">Projetos</a>
-            <a href="#contact">Contato</a>
+          <a href="#home">Home</a>
+          <a href="#projects">Projetos</a>
+          <a href="#contact">Contato</a>
         </nav>
       </div>
-    </header>  
-    
+    </header>
+
     <!-- HOME -->
     <section id="home">
       <div class="home-info">
         <h2>Olá, sou Welton</h2>
-        <span class="home-position"><h3>Programador Back-end Jr.</h3></span>
+        <span class="home-position">
+          <h3>Programador Back-end Jr.</h3>
+        </span>
         <span class="home-resume">
-          Estudante de Javascript, Typescript, NodeJs, MySql e MongoDB busco oportunidade para adquirir experiência com desenvolvimento web. Participei do bootcamp Gama Experience da Gama Academy, e atualmente sou estudante de Tecnologia da Informação pela UNIVESP.
+          Estudante de Javascript, Typescript, NodeJs, MySql e MongoDB busco oportunidade para adquirir experiência com
+          desenvolvimento web. Participei do bootcamp Gama Experience da Gama Academy, e atualmente sou estudante de
+          Tecnologia da Informação pela UNIVESP.
         </span>
 
         <section class="buttons-contact">
 
           <button class="whatsapp">
             <a href="#contact">
-              WhatsApp
+              <img src="./img/whatsapp.png" alt="whatsapp">
             </a>
           </button>
-          <button  class="linkedin">
-            <a href="#contact">Linkedin</a>
+          <button class="linkedin">
+            <a href="#contact">
+              <img src="./img/linkedin.png" alt="linkedin">
+            </a>
           </button>
-          <button  class="github">
-            <a href="#contact">Github</a>
+          <button class="github">
+            <a href="#contact">
+              <img src="./img/github.png" alt="github">
+            </a>
           </button>
         </section>
       </div>
@@ -64,57 +72,69 @@
         <div class="swiper-wrapper">
           <div class="swiper-slide">
             <div class="project-img">
-              <img src="./img/site.png" alt="Foto de um site">
+              <a href="https://curriculo-weltondev.vercel.app" target="_blank">
+                <img src="https://raw.githubusercontent.com/WeltonDev/portifolio/main/curriculo.gif"
+                  alt="Curriculo digital">
+              </a>
             </div>
+
             <div class="project-info">
-              <h2>WebSites Modernos</h2>
-              <p>Criação de websites modernos responsivos para qualquer dispositivo.</p>
+              <h2>Curriculo</h2>
+              <p>Curriculo digital criado para pôr em práticas os conhecimentos adquiridos em HTML, CSS e Javascript.</p>
             </div>
           </div>
           <div class="swiper-slide">
             <div class="project-img">
-              <img src="./img/shop.png" alt="Foto de uma loja online">
+              <a href="https://dindin-weltondev.vercel.app" target="_blank">
+                <img src="https://raw.githubusercontent.com/WeltonDev/portifolio/main/dindinProject.gif"
+                  alt="Din din Educação financeira">
+              </a>
             </div>
+
             <div class="project-info">
-              <h2>E-commerce</h2>
-              <p>Criação de lojas online de qualquer produto.</p>
+              <h2>Din Din Educação Financeira</h2>
+              <p>Plataforma de educação financeira.</p>
             </div>
           </div>
           <div class="swiper-slide">
             <div class="project-img">
-              <img src="./img/sistema.png" alt="Foto de um sistema">
+              <a href="https://omma-weltondev.vercel.app" target="_blank">
+                <img src="https://raw.githubusercontent.com/WeltonDev/portifolio/main/omma.gif"
+                  alt="omma receitas">
+              </a>
             </div>
             <div class="project-info">
-              <h2>Sistemas completos</h2>
-              <p>Criação de sistemas completos desde o back-end até o front-end.</p>
+              <h2>Omma Receitas</h2>
+              <p>Página de Receitas completa.</p>
             </div>
           </div>
         </div>
-      
-      <div class="swiper-button-next"></div>
-      <div class="swiper-button-prev"></div>
-      <div class="swiper-pagination"></div>
-    </div>
-  </section>
 
-  <!-- CONTACT -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
 
-  <section id="contact">
-    <h2>Contato</h2>
-    <form>
-      <input type="text" placeholder="Digite seu nome" />
-      <input type="email" placeholder="Digite seu e-mail" />
-      <textarea cols="30" rows="10" placeholder="Digite sua mensagem"></textarea>
-      <button>Enviar</button>
-    </form>
-  </section>
+    <!-- CONTACT -->
 
-  <footer>
-    copyright © 2022 Welton Rodrigues. Todos os direitos reservados
-  </footer>
-  </main>  
+    <section id="contact">
+      <h2>Contato</h2>
+      <form>
+        <input type="text" placeholder="Digite seu nome" />
+        <input type="email" placeholder="Digite seu e-mail" />
+        <textarea cols="30" rows="10" placeholder="Digite sua mensagem"></textarea>
+        <button>Enviar</button>
+      </form>
+    </section>
+
+    <footer>
+      copyright © 2023 Welton Rodrigues. Todos os direitos reservados
+    </footer>
+  </main>
 
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   <script src="script.js"></script>
 </body>
+
 </html>
